@@ -1,6 +1,7 @@
 # simple-tweets
 
-This project demonstrates a basic Web3 use case. It comes with a sample contract, a script that deploys that contract and a front-end.
+This project demonstrates a basic Web3 use case. It is based on the Buildspace wave-contract. 
+It comes with a sample contract, a script that deploys that contract and a front-end.
 
 As always, NPM install. 
 
