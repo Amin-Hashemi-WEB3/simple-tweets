@@ -1,17 +1,16 @@
-# Sample Hardhat Project
+# simple-tweets
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project demonstrates a basic Web3 use case. It comes with a sample contract, a script that deploys that contract and a front-end.
+
+As always, NPM install. 
 
 Try running some of the following tasks:
 
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
-# simple-tweets
+- Run the contract locally using 'npx hardhat run scripts/run.js'
+- Deploy the contract on a test network 'npx hardhat run scripts/deploy.js (currently set to Goerli in hardhat.config)
 
-# simple-tweets
-# simple-tweets
+# This should be in your .env file
+```shell
+API_KEY_URL=YOUR_NODE_API_KEY (alchemy, infura etc...)
+PRIVATE_KEY=YOUR_WALLET_PRIVATE_KEY
+```
